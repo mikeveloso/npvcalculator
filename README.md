@@ -10,7 +10,7 @@ Calculations
 ---
 - Net Present Value 
 
-### Prerequisite
+Prerequisites
 ---
 - .Net Core 2.2
 - .Net Framework 4.5 or later
