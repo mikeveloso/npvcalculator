@@ -1,0 +1,1 @@
+﻿///<binding BeforeBuild='wwwroot/css/site.min.css, wwwroot/plugins/npv/jquery.npv.calculator.min.js, wwwroot/plugins/npv/jquery.npv.calculator.min.css, wwwroot/js/site.min.js, wwwroot/js/npv.calculator.results.min.js, Update all files' />

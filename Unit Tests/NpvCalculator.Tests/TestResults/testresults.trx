@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="2e215b83-fd4b-40a4-a7cd-6e85f8d30227" name="Administrator@CASTELLESERVER 2020-02-12 02:14:03" runUser="CastelleServer\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-02-12T02:14:03.2578655+08:00" queuing="2020-02-12T02:14:03.2578655+08:00" start="2020-02-12T02:14:01.1050617+08:00" finish="2020-02-12T02:14:03.3202656+08:00" />
+  <TestSettings name="default" id="0eaa065f-3851-44bc-a863-a6ea19f64b92">
+    <Deployment runDeploymentRoot="Administrator_CASTELLESERVER_2020-02-12_02_14_03" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="512d7f6a-c8a9-4605-bf96-e142e80f2387" testId="2e4a9217-aedc-fcd6-2a60-7210e3b1abe9" testName="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForFiveYearsXTest" computerName="CASTELLESERVER" duration="00:00:00.0010000" startTime="2020-02-12T02:14:03.1642653+08:00" endTime="2020-02-12T02:14:03.1642653+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="512d7f6a-c8a9-4605-bf96-e142e80f2387" />
+    <UnitTestResult executionId="7d50eda4-904f-44a7-a7ee-83d5c3ab18ee" testId="b0ac7843-92d8-6270-e373-331c98b034e8" testName="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForThreeYearsXTest" computerName="CASTELLESERVER" duration="00:00:00.0010000" startTime="2020-02-12T02:14:03.1642653+08:00" endTime="2020-02-12T02:14:03.1642653+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d50eda4-904f-44a7-a7ee-83d5c3ab18ee" />
+    <UnitTestResult executionId="b45242f5-8a73-49fb-8458-4661636ea363" testId="e5649887-e4d5-e29e-daa0-3c12ce91f306" testName="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForNineYearsXTest" computerName="CASTELLESERVER" duration="00:00:00.0300000" startTime="2020-02-12T02:14:03.1486653+08:00" endTime="2020-02-12T02:14:03.1486653+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b45242f5-8a73-49fb-8458-4661636ea363" />
+    <UnitTestResult executionId="79996a26-ec13-4070-a66d-4b78bcf7613b" testId="f4ad1448-fa0e-359d-13fa-8b641a61d5d9" testName="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForFourYearsXTest" computerName="CASTELLESERVER" duration="00:00:00.0010000" startTime="2020-02-12T02:14:03.1642653+08:00" endTime="2020-02-12T02:14:03.1642653+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79996a26-ec13-4070-a66d-4b78bcf7613b" />
+    <UnitTestResult executionId="1667212d-69fe-4b5e-a710-9e3e348cc01b" testId="b00ef2c4-5e75-33dc-6ba3-2cd62c5c9ef1" testName="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForEightYearsXTest" computerName="CASTELLESERVER" duration="00:00:00.0010000" startTime="2020-02-12T02:14:03.1642653+08:00" endTime="2020-02-12T02:14:03.1642653+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1667212d-69fe-4b5e-a710-9e3e348cc01b" />
+    <UnitTestResult executionId="2722fb76-df24-4bb5-8aa8-18353d32def8" testId="ce2a4224-3290-590e-490b-00d6f4b8efac" testName="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForSixYeasrXTest" computerName="CASTELLESERVER" duration="00:00:00.0010000" startTime="2020-02-12T02:14:03.1954654+08:00" endTime="2020-02-12T02:14:03.1954654+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2722fb76-df24-4bb5-8aa8-18353d32def8" />
+    <UnitTestResult executionId="f2e0b12b-ac4a-42d8-bed6-577f53c7f9b8" testId="994fffaf-6a1f-162f-3892-a9761c55843b" testName="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForTwoYearsXTest" computerName="CASTELLESERVER" duration="00:00:00.0010000" startTime="2020-02-12T02:14:03.1642653+08:00" endTime="2020-02-12T02:14:03.1642653+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2e0b12b-ac4a-42d8-bed6-577f53c7f9b8" />
+    <UnitTestResult executionId="49f4989c-65ff-4f53-943a-988f8f7f76c6" testId="07ca87e7-45db-2f38-2cc1-f09236f9b28d" testName="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForOneYearXTest" computerName="CASTELLESERVER" duration="00:00:00.0010000" startTime="2020-02-12T02:14:03.1642653+08:00" endTime="2020-02-12T02:14:03.1642653+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49f4989c-65ff-4f53-943a-988f8f7f76c6" />
+    <UnitTestResult executionId="0803e8e8-5947-428e-ac43-19b57c65762f" testId="f40a964d-e622-0990-0797-141c57528e11" testName="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForTenYearsXTest" computerName="CASTELLESERVER" duration="00:00:00.0010000" startTime="2020-02-12T02:14:03.1642653+08:00" endTime="2020-02-12T02:14:03.1642653+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0803e8e8-5947-428e-ac43-19b57c65762f" />
+    <UnitTestResult executionId="d0ac07dd-763d-4889-860f-e2df6384c932" testId="a4a7d015-e230-b657-5083-ab024834a803" testName="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForSevenYearsXTest" computerName="CASTELLESERVER" duration="00:00:00.0010000" startTime="2020-02-12T02:14:03.1642653+08:00" endTime="2020-02-12T02:14:03.1642653+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0ac07dd-763d-4889-860f-e2df6384c932" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForEightYearsXTest" storage="e:\prosourcebpoexam\npvcalculatorsolution\unit tests\npvcalculator.tests\bin\debug\netcoreapp2.2\npvcalculator.tests.dll" id="b00ef2c4-5e75-33dc-6ba3-2cd62c5c9ef1">
+      <Execution id="1667212d-69fe-4b5e-a710-9e3e348cc01b" />
+      <TestMethod codeBase="E:\ProSourceBPOExam\NpvCalculatorSolution\Unit Tests\NpvCalculator.Tests\bin\Debug\netcoreapp2.2\NpvCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NpvCalculator.Tests" name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForEightYearsXTest" />
+    </UnitTest>
+    <UnitTest name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForNineYearsXTest" storage="e:\prosourcebpoexam\npvcalculatorsolution\unit tests\npvcalculator.tests\bin\debug\netcoreapp2.2\npvcalculator.tests.dll" id="e5649887-e4d5-e29e-daa0-3c12ce91f306">
+      <Execution id="b45242f5-8a73-49fb-8458-4661636ea363" />
+      <TestMethod codeBase="E:\ProSourceBPOExam\NpvCalculatorSolution\Unit Tests\NpvCalculator.Tests\bin\Debug\netcoreapp2.2\NpvCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NpvCalculator.Tests" name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForNineYearsXTest" />
+    </UnitTest>
+    <UnitTest name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForOneYearXTest" storage="e:\prosourcebpoexam\npvcalculatorsolution\unit tests\npvcalculator.tests\bin\debug\netcoreapp2.2\npvcalculator.tests.dll" id="07ca87e7-45db-2f38-2cc1-f09236f9b28d">
+      <Execution id="49f4989c-65ff-4f53-943a-988f8f7f76c6" />
+      <TestMethod codeBase="E:\ProSourceBPOExam\NpvCalculatorSolution\Unit Tests\NpvCalculator.Tests\bin\Debug\netcoreapp2.2\NpvCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NpvCalculator.Tests" name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForOneYearXTest" />
+    </UnitTest>
+    <UnitTest name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForTenYearsXTest" storage="e:\prosourcebpoexam\npvcalculatorsolution\unit tests\npvcalculator.tests\bin\debug\netcoreapp2.2\npvcalculator.tests.dll" id="f40a964d-e622-0990-0797-141c57528e11">
+      <Execution id="0803e8e8-5947-428e-ac43-19b57c65762f" />
+      <TestMethod codeBase="E:\ProSourceBPOExam\NpvCalculatorSolution\Unit Tests\NpvCalculator.Tests\bin\Debug\netcoreapp2.2\NpvCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NpvCalculator.Tests" name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForTenYearsXTest" />
+    </UnitTest>
+    <UnitTest name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForThreeYearsXTest" storage="e:\prosourcebpoexam\npvcalculatorsolution\unit tests\npvcalculator.tests\bin\debug\netcoreapp2.2\npvcalculator.tests.dll" id="b0ac7843-92d8-6270-e373-331c98b034e8">
+      <Execution id="7d50eda4-904f-44a7-a7ee-83d5c3ab18ee" />
+      <TestMethod codeBase="E:\ProSourceBPOExam\NpvCalculatorSolution\Unit Tests\NpvCalculator.Tests\bin\Debug\netcoreapp2.2\NpvCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NpvCalculator.Tests" name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForThreeYearsXTest" />
+    </UnitTest>
+    <UnitTest name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForSevenYearsXTest" storage="e:\prosourcebpoexam\npvcalculatorsolution\unit tests\npvcalculator.tests\bin\debug\netcoreapp2.2\npvcalculator.tests.dll" id="a4a7d015-e230-b657-5083-ab024834a803">
+      <Execution id="d0ac07dd-763d-4889-860f-e2df6384c932" />
+      <TestMethod codeBase="E:\ProSourceBPOExam\NpvCalculatorSolution\Unit Tests\NpvCalculator.Tests\bin\Debug\netcoreapp2.2\NpvCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NpvCalculator.Tests" name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForSevenYearsXTest" />
+    </UnitTest>
+    <UnitTest name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForFourYearsXTest" storage="e:\prosourcebpoexam\npvcalculatorsolution\unit tests\npvcalculator.tests\bin\debug\netcoreapp2.2\npvcalculator.tests.dll" id="f4ad1448-fa0e-359d-13fa-8b641a61d5d9">
+      <Execution id="79996a26-ec13-4070-a66d-4b78bcf7613b" />
+      <TestMethod codeBase="E:\ProSourceBPOExam\NpvCalculatorSolution\Unit Tests\NpvCalculator.Tests\bin\Debug\netcoreapp2.2\NpvCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NpvCalculator.Tests" name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForFourYearsXTest" />
+    </UnitTest>
+    <UnitTest name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForFiveYearsXTest" storage="e:\prosourcebpoexam\npvcalculatorsolution\unit tests\npvcalculator.tests\bin\debug\netcoreapp2.2\npvcalculator.tests.dll" id="2e4a9217-aedc-fcd6-2a60-7210e3b1abe9">
+      <Execution id="512d7f6a-c8a9-4605-bf96-e142e80f2387" />
+      <TestMethod codeBase="E:\ProSourceBPOExam\NpvCalculatorSolution\Unit Tests\NpvCalculator.Tests\bin\Debug\netcoreapp2.2\NpvCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NpvCalculator.Tests" name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForFiveYearsXTest" />
+    </UnitTest>
+    <UnitTest name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForSixYeasrXTest" storage="e:\prosourcebpoexam\npvcalculatorsolution\unit tests\npvcalculator.tests\bin\debug\netcoreapp2.2\npvcalculator.tests.dll" id="ce2a4224-3290-590e-490b-00d6f4b8efac">
+      <Execution id="2722fb76-df24-4bb5-8aa8-18353d32def8" />
+      <TestMethod codeBase="E:\ProSourceBPOExam\NpvCalculatorSolution\Unit Tests\NpvCalculator.Tests\bin\Debug\netcoreapp2.2\NpvCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NpvCalculator.Tests" name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForSixYeasrXTest" />
+    </UnitTest>
+    <UnitTest name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForTwoYearsXTest" storage="e:\prosourcebpoexam\npvcalculatorsolution\unit tests\npvcalculator.tests\bin\debug\netcoreapp2.2\npvcalculator.tests.dll" id="994fffaf-6a1f-162f-3892-a9761c55843b">
+      <Execution id="f2e0b12b-ac4a-42d8-bed6-577f53c7f9b8" />
+      <TestMethod codeBase="E:\ProSourceBPOExam\NpvCalculatorSolution\Unit Tests\NpvCalculator.Tests\bin\Debug\netcoreapp2.2\NpvCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NpvCalculator.Tests" name="NpvCalculator.Tests.NpvCalculatorTests.CalculateNpvForTwoYearsXTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2e4a9217-aedc-fcd6-2a60-7210e3b1abe9" executionId="512d7f6a-c8a9-4605-bf96-e142e80f2387" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0ac7843-92d8-6270-e373-331c98b034e8" executionId="7d50eda4-904f-44a7-a7ee-83d5c3ab18ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5649887-e4d5-e29e-daa0-3c12ce91f306" executionId="b45242f5-8a73-49fb-8458-4661636ea363" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4ad1448-fa0e-359d-13fa-8b641a61d5d9" executionId="79996a26-ec13-4070-a66d-4b78bcf7613b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b00ef2c4-5e75-33dc-6ba3-2cd62c5c9ef1" executionId="1667212d-69fe-4b5e-a710-9e3e348cc01b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce2a4224-3290-590e-490b-00d6f4b8efac" executionId="2722fb76-df24-4bb5-8aa8-18353d32def8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="994fffaf-6a1f-162f-3892-a9761c55843b" executionId="f2e0b12b-ac4a-42d8-bed6-577f53c7f9b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07ca87e7-45db-2f38-2cc1-f09236f9b28d" executionId="49f4989c-65ff-4f53-943a-988f8f7f76c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f40a964d-e622-0990-0797-141c57528e11" executionId="0803e8e8-5947-428e-ac43-19b57c65762f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4a7d015-e230-b657-5083-ab024834a803" executionId="d0ac07dd-763d-4889-860f-e2df6384c932" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.27617.05)[xUnit.net 00:00:01.18]   Discovering: NpvCalculator.Tests[xUnit.net 00:00:01.23]   Discovered:  NpvCalculator.Tests[xUnit.net 00:00:01.24]   Starting:    NpvCalculator.Tests[xUnit.net 00:00:01.46]   Finished:    NpvCalculator.Tests</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

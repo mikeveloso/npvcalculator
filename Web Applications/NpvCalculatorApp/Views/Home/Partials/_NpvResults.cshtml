@@ -1,0 +1,61 @@
+﻿@using NpvCalculator.Common
+@using NpvCalculator.Models
+
+@model Npv
+
+<h3>Cash Flow</h3>
+<div id="cashflow-results-items" class="cashflow-results-items">
+    <table cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td class="item-label">Year</td>
+                @foreach (var cashFlow in Model.CashFlows)
+                {
+                    <td class="item-header">@cashFlow.Year</td>
+                }
+            </tr>
+            <tr>
+                <td class="item-label">Amount</td>
+                @foreach (var cashFlow in Model.CashFlows)
+                {
+                    <td>@cashFlow.Amount.ToStringCurrency("{0:C}")</td>
+                }
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h3>Net Present Value</h3>
+<div id="npv-results-items" class="npv-results-items">
+    <table cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td class="item-label">Rate</td>
+                @foreach (var npv in Model.NpvResultItems)
+                {
+                    <td class="item-header">@npv.Rate.ToStringPercentage("{0:P}")</td>
+                }
+            </tr>
+            <tr>
+                <td class="item-label">NPV</td>
+                @foreach (var npv in Model.NpvResultItems)
+                {
+                    var negNpvClass = (npv.NetPresentValue < 0 ? "npv-negative" : string.Empty);
+                    
+                    <td class="@negNpvClass">@npv.NetPresentValue.ToStringCurrency("{0:C}")</td>
+                }
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+
+<script>
+    var npvChartData = @Html.Raw(Json.Serialize(@Model.NpvResultItems.Select(m => new { x = m.NetPresentValue, y = m.Rate })));
+    var npvMin = @Html.Raw(@Model.NpvResultItems.FirstOrDefault().NetPresentValue);
+    var npvMax = @Html.Raw(@Model.NpvResultItems.LastOrDefault().NetPresentValue + 1000);
+</script>
+
+<script src="~/plugins/chart/jquery.canvasjs.min.js" asp-append-version="true"></script>
+<script src="~/js/npv.calculator.results.min.js" asp-append-version="true"></script>
+

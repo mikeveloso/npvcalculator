@@ -1,0 +1,11 @@
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\obj\Debug\netcoreapp2.2\NpvCalculator.csproj.CoreCompileInputs.cache
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\obj\Debug\netcoreapp2.2\NpvCalculator.AssemblyInfoInputs.cache
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\obj\Debug\netcoreapp2.2\NpvCalculator.AssemblyInfo.cs
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\bin\Debug\netcoreapp2.2\NpvCalculator.deps.json
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\bin\Debug\netcoreapp2.2\NpvCalculator.dll
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\obj\Debug\netcoreapp2.2\NpvCalculator.csprojAssemblyReference.cache
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\bin\Debug\netcoreapp2.2\NpvCalculator.runtimeconfig.json
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\bin\Debug\netcoreapp2.2\NpvCalculator.runtimeconfig.dev.json
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\bin\Debug\netcoreapp2.2\NpvCalculator.pdb
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\obj\Debug\netcoreapp2.2\NpvCalculator.dll
+E:\ProSourceBPOExam\NpvCalculatorSolution\Libraries\NpvCalculator\obj\Debug\netcoreapp2.2\NpvCalculator.pdb

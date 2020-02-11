@@ -1,0 +1,89 @@
+﻿@using NpvCalculator.Helpers
+@using NpvCalculator.Models
+
+@model Npv
+
+@{
+    ViewData["Title"] = "NPV Calculator";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="box">
+    <div class="calculator-container">
+        @using (Html.BeginForm("CalculateNPV", "Home", FormMethod.Post, new { @id = "calculator-form", @name = "calculator-form", @class = "form-horizontal", @novalidate = "novalidate" }))
+        {
+            <div class="npv-form-field-container">
+                <div class="control-group">
+                    <label class="control-label">Lower Bound Discount Rate : </label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => Model.LowerBoundRate, new { @id = "txtLowerBoundRate", @class = "valid", @maxlength = "6", @required = "", range = "0.0001,100" })&nbsp;%
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Upper Bound Discount Rate : </label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => Model.UpperBoundRate, new { @id = "txtUpperBoundRate", @class = "valid", @maxlength = "6", @required = "", range = "0.0001,100" })&nbsp;%
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Discount Rate Increment : </label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => Model.RateIncrement, new { @id = "txtRateIncrement", @class = "valid", @maxlength = "6", @required = "", range = "0.0001,100" })&nbsp;%
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Initial Value : </label>
+                    <div class="controls">
+                        @Html.TextBoxFor(c => Model.InitialValue, new { @id = "txtInitialValue", @class = "valid", @maxlength = "11", @required = "", range = "0,9999999999" })
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Tenure in Years : </label>
+                    <div class="controls">
+                        @Html.DropDownListFor(m => m.Years, ListHelper.TenureLists, "Select Tenure in Years", new { @id = "drpYears", @class = "valid", @required = "" })
+                    </div>
+                </div>
+            </div>
+
+            <div id="cashflow-items" class="cashflow-container"></div>
+
+            <div class="npv-form-action-container">
+                <div class="control-group">
+                    <div class="controls">
+                        <input id="calculateNPV" type="submit" value="Calculate NPV" />&nbsp;&nbsp;
+                        <input id="reset-button" type="submit" value="Reset" />
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section CssSection
+{
+    <link rel="stylesheet" href="~/plugins/npv/jquery.npv.calculator.css" asp-append-version="true" />
+}
+
+@section Scripts
+    {
+
+    <script src="~/plugins/numeral/numeral.min.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation/dist/additional-methods.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/npv/jquery.npv.calculator.min.js" asp-append-version="true"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#calculator-form').npvcalculator({
+                resetButton: $('#reset-button'),
+                yearsDropdown: $('#drpYears'),
+                cashFlowItemsContainer: $('#cashflow-items'),
+                urls: {
+                    generateCashFlows: '@Url.Action("GenerateCashFlows", "Home")',
+                    calculateNpv: '@Url.Action("CalculateNPV", "Home")'
+                }
+            });
+        });
+    </script>
+}

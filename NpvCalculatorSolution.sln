@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{58326282-58C2-49D4-BF5B-FFF85F392DDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{11CACFF9-152A-4B39-98C9-B003277C6720}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Api", "Web Api", "{ACA6F97E-B446-40A5-AB24-7A117812ADEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Application", "Web Application", "{5B85A684-9030-4400-8BA8-95727696D0F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Binaries", "Binaries", "{457BEB16-F6FD-4C49-AF33-61B1F820A64C}"
+	ProjectSection(SolutionItems) = preProject
+		Binaries\Financial.dll = Binaries\Financial.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NvpCalculaterApi", "Web Api\NvpCalculaterApi\NvpCalculaterApi.csproj", "{C3137D46-18BF-45D8-A96D-D3057FF4B294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NpvCalculator.Tests", "Unit Tests\NpvCalculator.Tests\NpvCalculator.Tests.csproj", "{C564A941-A840-4809-8DE5-0EC1674F7231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NpvCalculator", "Libraries\NpvCalculator\NpvCalculator.csproj", "{130B618D-89C4-4CB0-A1B0-70349AFDE6F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NpvCalculatorApp", "Web Applications\NpvCalculatorApp\NpvCalculatorApp.csproj", "{F9714A57-2930-4FF8-95DD-CA45C05B4A17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3137D46-18BF-45D8-A96D-D3057FF4B294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3137D46-18BF-45D8-A96D-D3057FF4B294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3137D46-18BF-45D8-A96D-D3057FF4B294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3137D46-18BF-45D8-A96D-D3057FF4B294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C564A941-A840-4809-8DE5-0EC1674F7231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C564A941-A840-4809-8DE5-0EC1674F7231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C564A941-A840-4809-8DE5-0EC1674F7231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C564A941-A840-4809-8DE5-0EC1674F7231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130B618D-89C4-4CB0-A1B0-70349AFDE6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130B618D-89C4-4CB0-A1B0-70349AFDE6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130B618D-89C4-4CB0-A1B0-70349AFDE6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130B618D-89C4-4CB0-A1B0-70349AFDE6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9714A57-2930-4FF8-95DD-CA45C05B4A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9714A57-2930-4FF8-95DD-CA45C05B4A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9714A57-2930-4FF8-95DD-CA45C05B4A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9714A57-2930-4FF8-95DD-CA45C05B4A17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3137D46-18BF-45D8-A96D-D3057FF4B294} = {ACA6F97E-B446-40A5-AB24-7A117812ADEF}
+		{C564A941-A840-4809-8DE5-0EC1674F7231} = {11CACFF9-152A-4B39-98C9-B003277C6720}
+		{130B618D-89C4-4CB0-A1B0-70349AFDE6F2} = {58326282-58C2-49D4-BF5B-FFF85F392DDF}
+		{F9714A57-2930-4FF8-95DD-CA45C05B4A17} = {5B85A684-9030-4400-8BA8-95727696D0F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {799E8D0B-EBD8-45EF-AD0A-CF8DFDA7DBC1}
+	EndGlobalSection
+EndGlobal
