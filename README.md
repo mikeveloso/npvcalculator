@@ -19,7 +19,7 @@ Calculations
 
 Additional .Net Library 
 ---
-- Financial.dll (Use to verify test results)
+- Financial.dll (.Net Library use to verify test results)
 
 NUGet Packages
 ---
