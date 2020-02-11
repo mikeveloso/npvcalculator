@@ -3,8 +3,6 @@
 
 Calculate Net Present Value for series of cashflows
 
-## Calculations
-
 Calculations
 ---
 - net present value 
