@@ -1,7 +1,11 @@
 
 # NPV Calculator
 
-Calculate Net Present Value for series of cashflows
+Calculate Net Present Value for given cashflows and series of rates base on the lower bound rate and lower bound rate and rate interval provided.
+
+Calculating the net present values of the expected cashflows from two investments provides a way for projects to be compared with each other.
+
+The phrase "present value" is about the fact that the value of money changes over time and so we need to be able to compare it across time. Note that future cashflows are often unknown in advance and so projects often need to be evaluated probabilistically.
 
 Calculations
 ---
