@@ -8,7 +8,7 @@ The phrase "present value" is about the fact that the value of money changes ove
 
 Calculations
 ---
-- net present value 
+- Net Present Value 
 
 ### Prerequisite
 ---
