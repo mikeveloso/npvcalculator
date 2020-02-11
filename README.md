@@ -1,4 +1,3 @@
-
 # NPV Calculator
 
 Calculate Net Present Value for given cashflows and series of rates base on the lower bound rate and lower bound rate and rate interval provided.
