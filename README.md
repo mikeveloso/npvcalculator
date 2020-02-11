@@ -50,7 +50,7 @@ xUnit Testing
 
 
 Using Postman to test the API
-
+---
 - Download and Install the Postman Desktop app or use the Chrome Browser Extension
 - Run the NpvCalculatorApi Project
 - In Postman make a post request to the NpvCalculatorApi. 
