@@ -10,12 +10,16 @@ Calculations
 ---
 - net present value 
 
-Prerequisite
+### Prerequisite
 ---
 - .Net Core 2.2
 - .Net Framework 4.5 or later
 - Asp.Net MVC 4 or later
 - Visual Studio 2017 or later
+
+Additional .Net Library 
+---
+- Financial.dll (Use to verify test results)
 
 NUGet Packages
 ---
@@ -24,6 +28,12 @@ NUGet Packages
 - Mog 4.13.1
 - AutoFixture.AutoMog 4.11.0
 - XUnit.Runner.Console 2.4.0
+
+JQuery Plugins
+---
+- jquery.canvasjs.min.js for Graph/Chart
+- numeral.min.js
+- jquery.npv.calculator.js custom JQuery plugins intended only for NPV Calculator
 
 Optional Resource
 ---
